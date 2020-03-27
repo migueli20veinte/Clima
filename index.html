@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Clima</title>
+  </head>
+  <body>
+    <div class="row mt-4 mb-4 mr-3 ml-3">
+      <div class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-10">
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Ciudad</span>
+          </div>
+          <input type="text" id="city" class="form-control" placeholder="ingresa la ciudad">
+        </div>
+      </div>
+      </div>
+    <div class="row mt-4 mb-4 mr-3 ml-3">
+      <div class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-10">
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text">País (codigo)</span>
+          </div>
+          <input type="text" id="code" class="form-control" placeholder="ingresa el codigo del país">
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-3 col-xl-2 mt-2 mt-sm-2 mt-md-0">
+        <button type="button" onclick="mostrar_clima()" class="btn btn-primary btn-block btn-lg">Mostrar</button>
+      </div>
+    </div>
+    <div class="row mt-4 mb-4 mr-3 ml-3" id="resultados">
+    </div>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html
